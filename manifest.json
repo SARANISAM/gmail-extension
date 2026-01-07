@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Gmail Tab Opener",
+  "version": "1.0",
+  "description": "Opens Gmail in a new tab when the extension icon is clicked.",
+  "action": {
+    "default_title": "Open Gmail"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
